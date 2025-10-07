@@ -1,0 +1,549 @@
+#to load this file when setting up a new pc
+#go to terminal
+#dconf load /org/gnome/shell/extentions < ishraq_gnomeshellexts.txt 
+
+
+
+
+[Bluetooth-Battery-Meter]
+color-10='#ff7800'
+color-100='#15c931'
+color-20='#ff7800'
+color-30='#15c931'
+color-40='#15c931'
+color-50='#15c931'
+color-60='#15c931'
+color-70='#15c931'
+color-80='#15c931'
+color-90='#15c931'
+device-list=['{"path":"/org/bluez/hci0/dev_84_AC_60_8D_C6_AE","icon":"audio-headphones","alias":"QCY H3","paired":true,"battery-reported":true,"qs-level":true,"indicator-mode":2,"enhanced-device":null,"connected-time":1756348761,"disconnected-time":1756348761}']
+enable-battery-indicator=true
+enable-battery-indicator-text=true
+enable-battery-level-icon=true
+enable-battery-level-text=true
+enable-upower-level-icon=false
+indicator-size=100
+level-indicator-color=0
+level-indicator-type=0
+swap-icon-text=false
+
+[EasyScreenCast]
+area-screen=0
+file-folder='/home/icarus'
+file-resolution-height=1080
+file-resolution-type=-1
+file-resolution-width=1920
+fps=30
+input-audio-source=0
+pipeline='vp9enc min_quantizer=0 max_quantizer=5 cpu-used=3 deadline=1000000 threads=%T ! queue max-size-buffers=0 max-size-time=0 max-size-bytes=0 ! webmmux'
+quality-index=1
+quality-webcam=''
+
+[al-hijri-date]
+date-adjustment=-1
+mycolor='rgb(164,165,167)'
+panel-position='left'
+
+[appindicator]
+icon-brightness=0.0
+icon-contrast=0.0
+icon-opacity=240
+icon-saturation=0.0
+icon-size=0
+
+[aztaskbar]
+update-notifier-project-version=31
+
+[bluetooth_battery_indicator]
+devices=['{"name":"L16M2PB2","mac":"244","icon":"battery-full-symbolic","isActive":false}', '{"name":"QCY H3","mac":"84:AC:60:8D:C6:AE","icon":"audio-headphones-symbolic","isActive":true}']
+hide-indicator=true
+interval=1
+
+[blur-my-shell]
+settings-version=2
+
+[blur-my-shell/appfolder]
+brightness=0.59999999999999998
+sigma=30
+
+[blur-my-shell/coverflow-alt-tab]
+pipeline='pipeline_default'
+
+[blur-my-shell/dash-to-dock]
+blur=true
+brightness=0.59999999999999998
+pipeline='pipeline_default_rounded'
+sigma=30
+static-blur=true
+style-dash-to-dock=0
+
+[blur-my-shell/lockscreen]
+pipeline='pipeline_default'
+
+[blur-my-shell/overview]
+pipeline='pipeline_default'
+
+[blur-my-shell/panel]
+brightness=0.59999999999999998
+pipeline='pipeline_default'
+sigma=30
+
+[blur-my-shell/screenshot]
+pipeline='pipeline_default'
+
+[blur-my-shell/window-list]
+brightness=0.59999999999999998
+sigma=30
+
+[caffeine]
+indicator-position-max=2
+restore-state=true
+user-enabled=true
+
+[clipboard-indicator]
+display-mode=0
+move-item-first=true
+paste-button=true
+paste-on-select=true
+strip-text=false
+toggle-menu=['<Super>period']
+
+[dash-to-dock]
+animation-time=0.10000000000000002
+apply-custom-theme=false
+background-color='rgb(0,0,0)'
+background-opacity=0.84999999999999998
+custom-background-color=true
+custom-theme-shrink=true
+dash-max-icon-size=40
+dock-fixed=false
+dock-position='BOTTOM'
+height-fraction=0.90000000000000002
+hide-delay=0.10000000000000002
+hide-tooltip=false
+hot-keys=false
+icon-size-fixed=false
+intellihide-mode='FOCUS_APPLICATION_WINDOWS'
+preferred-monitor=-2
+preferred-monitor-by-connector='eDP-1'
+preview-size-scale=0.0
+require-pressure-to-show=false
+scroll-action='do-nothing'
+show-apps-always-in-the-edge=true
+show-apps-at-top=false
+show-delay=1.3877787807814457e-17
+show-favorites=true
+show-show-apps-button=false
+show-trash=false
+show-windows-preview=true
+transparency-mode='FIXED'
+
+[dash2dock-lite]
+animate-icons-unmute=true
+animation-bounce=0.60999999999999999
+animation-magnify=0.20000000000000001
+animation-rise=0.29999999999999999
+animation-spread=0.55000000000000004
+apps-icon=false
+apps-icon-front=false
+autohide-dash=true
+autohide-dodge=true
+autohide-speed=0.20000000000000001
+background-color=(0.0, 0.0, 0.0, 1.0)
+blur-background=false
+blur-resolution=0
+border-color=(0.058823522180318832, 0.090196073055267334, 0.15686275064945221, 1.0)
+border-radius=5.5903614457831328
+border-thickness=0
+clock-icon=false
+customize-label=false
+customize-topbar=false
+debug-visual=false
+dock-padding=0.77142857142857146
+downloads-icon=false
+edge-distance=0.41428571428571437
+favorites-only=false
+hide-labels=false
+icon-effect=0
+icon-effect-color=(0.80519998073577881, 0.88327062129974365, 0.99000000953674316, 0.56999999284744263)
+icon-resolution=0
+icon-shadow=true
+icon-size=0.15517241379310345
+icon-spacing=0.0
+items-pullout-angle=0.67000000000000004
+label-border-radius=0.0
+mounted-icon=false
+msg-to-ext=''
+notification-badge-color=(1.0, 0.18823528289794922, 0.25098049640655518, 1.0)
+notification-badge-style=1
+open-app-animation=false
+panel-mode=false
+preferred-monitor=0
+pressure-sense=false
+pressure-sense-sensitivity=0.40000000000000002
+running-indicator-size=0
+running-indicator-style=2
+scroll-sensitivity=0.40000000000000002
+separator-thickness=0
+shrink-icons=true
+topbar-blur-background=false
+topbar-border-thickness=0
+trash-icon=false
+
+[date-menu-formatter]
+font-size=11
+formatter='01_luxon'
+pattern='EEE, d MMM H : mm'
+text-align='center'
+update-level=2
+
+[forge]
+css-last-update=uint32 37
+css-updated='1753180760026'
+focus-on-hover-enabled=true
+tiling-mode-enabled=false
+window-gap-size=uint32 2
+
+[forge/keybindings]
+con-split-horizontal=['<Super>z']
+con-split-layout-toggle=['<Super>g']
+con-split-vertical=['<Super>v']
+con-stacked-layout-toggle=['<Shift><Super>s']
+con-tabbed-layout-toggle=['<Shift><Super>t']
+con-tabbed-showtab-decoration-toggle=['<Control><Alt>y']
+focus-border-toggle=['<Super>x']
+prefs-tiling-toggle=['<Super>w']
+window-focus-down=['<Super>j']
+window-focus-left=['<Super>h']
+window-focus-right=['<Super>l']
+window-focus-up=['<Super>k']
+window-gap-size-decrease=['<Control><Super>minus']
+window-gap-size-increase=['<Control><Super>plus']
+window-move-down=['<Shift><Super>j']
+window-move-left=['<Shift><Super>h']
+window-move-right=['<Shift><Super>l']
+window-move-up=['<Shift><Super>k']
+window-resize-bottom-decrease=['<Shift><Control><Super>i']
+window-resize-bottom-increase=['<Control><Super>u']
+window-resize-left-decrease=['<Shift><Control><Super>o']
+window-resize-left-increase=['<Control><Super>y']
+window-resize-right-decrease=['<Shift><Control><Super>y']
+window-resize-right-increase=['<Control><Super>o']
+window-resize-top-decrease=['<Shift><Control><Super>u']
+window-resize-top-increase=['<Control><Super>i']
+window-snap-center=['<Control><Alt>c']
+window-snap-one-third-left=['<Control><Alt>d']
+window-snap-one-third-right=['<Control><Alt>g']
+window-snap-two-third-left=['<Control><Alt>e']
+window-snap-two-third-right=['<Control><Alt>t']
+window-swap-down=['<Control><Super>j']
+window-swap-last-active=['<Super>Return']
+window-swap-left=['<Control><Super>h']
+window-swap-right=['<Control><Super>l']
+window-swap-up=['<Control><Super>k']
+window-toggle-always-float=['<Shift><Super>c']
+window-toggle-float=['<Super>c']
+workspace-active-tile-toggle=['<Shift><Super>w']
+
+[gsconnect]
+devices=['1ae99c1cdf9b4e4ab881fd32a46e9129']
+enabled=true
+name='Icarus'
+
+[gsconnect/device/1ae99c1cdf9b4e4ab881fd32a46e9129]
+certificate-pem='-----BEGIN CERTIFICATE-----\nMIIBjDCCATGgAwIBAgIBATAKBggqhkjOPQQDBDBPMSkwJwYDVQQDDCAxYWU5OWMx\nY2RmOWI0ZTRhYjg4MWZkMzJhNDZlOTEyOTEUMBIGA1UECwwLS0RFIENvbm5lY3Qx\nDDAKBgNVBAoMA0tERTAeFw0yNDA3MDQxODAwMDBaFw0zNTA3MDQxODAwMDBaME8x\nKTAnBgNVBAMMIDFhZTk5YzFjZGY5YjRlNGFiODgxZmQzMmE0NmU5MTI5MRQwEgYD\nVQQLDAtLREUgQ29ubmVjdDEMMAoGA1UECgwDS0RFMFkwEwYHKoZIzj0CAQYIKoZI\nzj0DAQcDQgAEYsxxN502JdIxnhSHGfvGgDsor8uQdhu5c+Yq14ys2Xm+Flq3NFuP\nY7aVwY/uwlk2iOVRe4aFKe5A/lyPOwedrzAKBggqhkjOPQQDBANJADBGAiEA2iR6\nKM+bvtgSkdcX3mLthLd9DWd1q+q3tQZEOjJufrECIQDWjeYkaanqgdzFGLQaHB+Q\nzxBYgK3hjHvHQ+QFJdU6mQ==\n-----END CERTIFICATE-----\n'
+incoming-capabilities=['kdeconnect.battery', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.contacts.request_all_uids_timestamps', 'kdeconnect.contacts.request_vcards_by_uid', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.action', 'kdeconnect.notification.reply', 'kdeconnect.notification.request', 'kdeconnect.ping', 'kdeconnect.runcommand', 'kdeconnect.sftp.request', 'kdeconnect.share.request', 'kdeconnect.share.request.update', 'kdeconnect.sms.request', 'kdeconnect.sms.request_attachment', 'kdeconnect.sms.request_conversation', 'kdeconnect.sms.request_conversations', 'kdeconnect.systemvolume', 'kdeconnect.telephony.request', 'kdeconnect.telephony.request_mute']
+last-connection='lan://192.168.0.101:1716'
+name='deadlx'
+outgoing-capabilities=['kdeconnect.battery', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.connectivity_report', 'kdeconnect.contacts.response_uids_timestamps', 'kdeconnect.contacts.response_vcards', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.echo', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.request', 'kdeconnect.ping', 'kdeconnect.presenter', 'kdeconnect.runcommand.request', 'kdeconnect.sftp', 'kdeconnect.share.request', 'kdeconnect.sms.attachment_file', 'kdeconnect.sms.messages', 'kdeconnect.systemvolume.request', 'kdeconnect.telephony']
+paired=true
+supported-plugins=['battery', 'clipboard', 'connectivity_report', 'contacts', 'findmyphone', 'mousepad', 'mpris', 'notification', 'ping', 'presenter', 'runcommand', 'sftp', 'share', 'sms', 'systemvolume', 'telephony']
+type='phone'
+
+[gsconnect/device/1ae99c1cdf9b4e4ab881fd32a46e9129/plugin/battery]
+custom-battery-notification-value=uint32 80
+
+[gsconnect/device/1ae99c1cdf9b4e4ab881fd32a46e9129/plugin/notification]
+applications='{"Printers":{"iconName":"org.gnome.Settings-printers-symbolic","enabled":true},"Bottles":{"iconName":"com.usebottles.bottles","enabled":true},"Events and Tasks Reminders":{"iconName":"org.gnome.Evolution-alarm-notify","enabled":true},"Zenity":{"iconName":"application-x-executable","enabled":true},"Disks":{"iconName":"org.gnome.DiskUtility","enabled":true},"Software":{"iconName":"org.gnome.Software","enabled":true},"Date & Time":{"iconName":"org.gnome.Settings-time-symbolic","enabled":true},"Ghostty":{"iconName":"com.mitchellh.ghostty","enabled":true},"Rhythmbox":{"iconName":"org.gnome.Rhythmbox3","enabled":true},"Disk Usage Analyzer":{"iconName":"org.gnome.baobab","enabled":true},"Power":{"iconName":"org.gnome.Settings-power-symbolic","enabled":true},"Color Management":{"iconName":"org.gnome.Settings-color-symbolic","enabled":true},"Spotify":{"iconName":"com.spotify.Client","enabled":true},"Files":{"iconName":"org.gnome.Nautilus","enabled":true},"Clocks":{"iconName":"org.gnome.clocks","enabled":true},"Problem Reporting":{"iconName":"abrt","enabled":true}}'
+
+[gsconnect/device/1ae99c1cdf9b4e4ab881fd32a46e9129/plugin/share]
+receive-directory='/home/icarus/Downloads'
+
+[gsconnect/preferences]
+window-maximized=false
+window-size=(875, 460)
+
+[gtile]
+auto-close=false
+follow-cursor=false
+
+[hijridate]
+date-format='{day} {month} {year} {suffix}'
+
+[istighfar]
+dark-mode=true
+duration=10
+
+[just-perfection]
+accent-color-icon=false
+accessibility-menu=true
+activities-button=true
+alt-tab-icon-size=0
+animation=1
+background-menu=true
+clock-menu=true
+controls-manager-spacing-size=0
+dash=true
+dash-app-running=true
+dash-icon-size=0
+dash-separator=true
+double-super-to-appgrid=true
+invert-calendar-column-items=false
+keyboard-layout=true
+max-displayed-search-results=0
+osd=true
+panel=true
+panel-icon-size=0
+panel-in-overview=true
+panel-notification-icon=true
+power-icon=true
+ripple-box=true
+search=true
+show-apps-button=true
+startup-status=1
+support-notifier-showed-version=34
+support-notifier-type=0
+theme=false
+top-panel-position=0
+window-demands-attention-focus=false
+window-picker-icon=true
+window-preview-caption=true
+window-preview-close-button=true
+workspace=true
+workspace-background-corner-size=0
+workspace-peek=true
+workspace-popup=true
+workspace-switcher-should-show=false
+workspaces-in-app-grid=true
+
+[lockscreen-extension]
+background-image-path-1='file:///home/icarus/ICARUS/Photos/lockscreen/ocean.jpg'
+background-size-1='cover'
+backgrounds-folder-path='/home/icarus/ICARUS/Photos/lockscreen'
+blur-brightness-1=0.69999999999999996
+blur-radius-1=10
+gradient-direction-1='none'
+hide-lockscreen-extension-button=true
+local-share-backgrounds-folder-path=false
+user-background-1=true
+usr-local-share-backgrounds-folder-path=false
+usr-share-backgrounds-folder-path=false
+
+[mediacontrols]
+colored-player-icon=false
+elements-order=['ICON', 'LABEL', 'CONTROLS']
+extension-index=uint32 2
+extension-position='Left'
+fixed-label-width=true
+hide-media-notification=true
+label-width=uint32 150
+labels-order=['ARTIST', 'TITLE', '-']
+mouse-action-left='SHOW_POPUP_MENU'
+scroll-labels=true
+show-control-icons=true
+show-control-icons-next=true
+show-control-icons-play=true
+show-control-icons-previous=true
+show-control-icons-seek-backward=false
+show-control-icons-seek-forward=false
+show-label=true
+show-track-slider=true
+
+[openbar]
+apply-all-shell=false
+autohg-bar=true
+autohg-menu=true
+autotheme-dark='Dark'
+autotheme-font=true
+autotheme-light='Light'
+bartype='Islands'
+bcolor=['0.757', '0.812', '0.906']
+bg-change=true
+bgalpha=0.0
+bgalpha2=0.0
+bgcolor=['0.600', '0.757', '0.945']
+bgcolor-wmax=['0.118', '0.118', '0.118']
+bgcolor2=['0.149', '0.635', '0.412']
+bguri='file:///home/icarus/.config/background'
+bottom-margin=6.5
+boxalpha=0.0
+boxcolor=['0.020', '0.035', '0.051']
+bwidth=0.0
+candybar=false
+count1=327604
+count10=2237
+count11=146
+count12=12
+count2=73875
+count3=62420
+count4=31610
+count5=25902
+count6=14051
+count7=11444
+count8=6549
+count9=5955
+dark-bcolor=['0.757', '0.812', '0.906']
+dark-bgcolor=['0.600', '0.757', '0.945']
+dark-bgcolor-wmax=['0.118', '0.118', '0.118']
+dark-bgcolor2=['0.149', '0.635', '0.412']
+dark-bguri='file:///home/icarus/.config/background'
+dark-boxcolor=['0.020', '0.035', '0.051']
+dark-hcolor=['0.518', '0.549', '0.549']
+dark-hscd-color=['0.353', '0.553', '0.812']
+dark-iscolor=['0.020', '0.035', '0.051']
+dark-mbcolor=['0.518', '0.549', '0.549']
+dark-mbgcolor=['0.110', '0.161', '0.224']
+dark-mhcolor=['0.518', '0.549', '0.549']
+dark-mscolor=['0.353', '0.553', '0.812']
+dark-mshcolor=['0.000', '0.000', '0.000']
+dark-palette1=['7', '11', '16']
+dark-palette10=['14', '82', '165']
+dark-palette11=['39', '76', '141']
+dark-palette12=['132', '140', '140']
+dark-palette2=['73', '117', '179']
+dark-palette3=['107', '151', '208']
+dark-palette4=['43', '62', '86']
+dark-palette5=['58', '79', '105']
+dark-palette6=['197', '208', '228']
+dark-palette7=['32', '46', '60']
+dark-palette8=['82', '95', '117']
+dark-palette9=['46', '55', '65']
+dark-shcolor=['0.000', '0.000', '0.000']
+dark-smbgcolor=['0.306', '0.353', '0.412']
+dark-vw-color=['0.353', '0.553', '0.812']
+dark-winbcolor=['0.353', '0.553', '0.812']
+default-font='Sans 12'
+fgalpha=1.0
+gradient=false
+gradient-direction='vertical'
+hcolor=['0.518', '0.549', '0.549']
+height=42.0
+hpad=2.5
+hscd-color=['0.353', '0.553', '0.812']
+import-export=false
+isalpha=0.97999999999999998
+iscolor=['0.020', '0.035', '0.051']
+light-bcolor=['0.063', '0.384', '0.776']
+light-bgcolor=['0.827', '0.859', '0.918']
+light-bgcolor-wmax=['0.922', '0.922', '0.922']
+light-bgcolor2=['0.725', '0.761', '0.804']
+light-bguri='file:///home/icarus/.config/background'
+light-boxcolor=['0.827', '0.859', '0.918']
+light-hcolor=['0.027', '0.043', '0.063']
+light-hscd-color=['0.400', '0.604', '0.871']
+light-iscolor=['0.827', '0.859', '0.918']
+light-mbcolor=['0.027', '0.043', '0.063']
+light-mbgcolor=['0.902', '0.910', '0.925']
+light-mhcolor=['0.027', '0.043', '0.063']
+light-mscolor=['0.400', '0.604', '0.871']
+light-mshcolor=['0.000', '0.000', '0.000']
+light-palette1=['7', '11', '16']
+light-palette10=['14', '82', '165']
+light-palette11=['39', '76', '141']
+light-palette12=['132', '140', '140']
+light-palette2=['73', '117', '179']
+light-palette3=['107', '151', '208']
+light-palette4=['43', '62', '86']
+light-palette5=['58', '79', '105']
+light-palette6=['197', '208', '228']
+light-palette7=['32', '46', '60']
+light-palette8=['82', '95', '117']
+light-palette9=['46', '55', '65']
+light-shcolor=['0.000', '0.000', '0.000']
+light-smbgcolor=['0.725', '0.761', '0.804']
+light-vw-color=['0.400', '0.604', '0.871']
+light-winbcolor=['0.400', '0.604', '0.871']
+margin=0.0
+mbcolor=['0.518', '0.549', '0.549']
+mbgcolor=['0.110', '0.161', '0.224']
+mfgalpha=1.0
+mhcolor=['0.518', '0.549', '0.549']
+monitor-height=1080
+monitor-width=1920
+mscolor=['0.353', '0.553', '0.812']
+mshcolor=['0.000', '0.000', '0.000']
+palette1=['7', '11', '16']
+palette10=['14', '82', '165']
+palette11=['39', '76', '141']
+palette12=['132', '140', '140']
+palette2=['73', '117', '179']
+palette3=['107', '151', '208']
+palette4=['43', '62', '86']
+palette5=['58', '79', '105']
+palette6=['197', '208', '228']
+palette7=['32', '46', '60']
+palette8=['82', '95', '117']
+palette9=['46', '55', '65']
+pause-reload=false
+position='Top'
+reloadstyle=false
+shadow=false
+shalpha=0.87
+shcolor=['0.000', '0.000', '0.000']
+smbgcolor=['0.306', '0.353', '0.412']
+trigger-autotheme=false
+trigger-reload=true
+vpad=4.5
+vw-color=['0.353', '0.553', '0.812']
+winbcolor=['0.353', '0.553', '0.812']
+wmaxbar=false
+
+[panel-date-format]
+format='%Y.%m.%d %H:%M'
+
+[space-bar/appearance]
+active-workspace-background-color='rgb(36,40,59)'
+active-workspace-border-radius=5
+active-workspace-font-weight='800'
+active-workspace-padding-v=1
+active-workspace-text-color='rgb(53,132,228)'
+application-styles='.space-bar {\n  -natural-hpadding: 2px;\n}\n\n.space-bar-workspace-label.active {\n  margin: 0 2px;\n  background-color: rgb(36,40,59);\n  color: rgb(53,132,228);\n  border-color: rgba(0,0,0,0);\n  font-weight: 800;\n  border-radius: 5px;\n  border-width: 0px;\n  padding: 1px 8px;\n}\n\n.space-bar-workspace-label.inactive {\n  margin: 0 2px;\n  background-color: rgba(0,0,0,0);\n  color: rgba(255,255,255,1);\n  border-color: rgba(0,0,0,0);\n  font-weight: 800;\n  border-radius: 5px;\n  border-width: 0px;\n  padding: 1px 8px;\n}\n\n.space-bar-workspace-label.inactive.empty {\n  margin: 0 2px;\n  background-color: rgba(0,0,0,0);\n  color: rgba(255,255,255,0.5);\n  border-color: rgba(0,0,0,0);\n  font-weight: 800;\n  border-radius: 5px;\n  border-width: 0px;\n  padding: 1px 8px;\n}'
+custom-styles-enabled=false
+custom-styles-failed=false
+empty-workspace-border-radius=5
+empty-workspace-font-weight='800'
+empty-workspace-padding-v=1
+inactive-workspace-border-radius=5
+inactive-workspace-font-weight='800'
+inactive-workspace-padding-v=1
+workspace-margin=2
+workspaces-bar-padding=2
+
+[space-bar/behavior]
+enable-custom-label=false
+enable-custom-label-in-menu=false
+indicator-style='workspaces-bar'
+smart-workspace-names=false
+toggle-overview=true
+
+[space-bar/state]
+version=33
+
+[spotify-controls]
+controls-position='right'
+enable-volume-control=true
+position='rightmost-left'
+show-playback-controls=false
+show-spotify-icon=false
+show-track-info=true
+
+[user-theme]
+name='Tokyonight-Dark'
+
+[workspace-indicator]
+embed-previews=false
+
+[workspaces-indicator-by-open-apps]
+apps-all-desaturate=false
+apps-symbolic-icons=true
+indicator-color='rgb(54,127,212)'
