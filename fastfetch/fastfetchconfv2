@@ -23,18 +23,18 @@
         "break",
         {
             "type": "kernel",
-            "key": " ",
+            "key": " ",
             "keyColor": "35",
         },
         {
             "type": "packages",
             "format": "{} (pacman)",
-            "key": " ",
+            "key": "󰏓 ",
             "keyColor": "35",  
         },
         {
             "type": "shell",
-            "key": " ",
+            "key": "󰊠 ",
             "keyColor": "34", 
         },
         {
@@ -44,17 +44,17 @@
         },
         {
             "type": "wm",
-            "key": " ",
+            "key": " ",
             "keyColor": "36", 
         },
         {
             "type": "uptime",
-            "key": " ",
+            "key": " ",
             "keyColor": "36", 
         },
         {
             "type": "media",
-            "key": "󰝚 ",
+            "key": "󰎄 ",
             "keyColor": "36", 
         },
         "break",
