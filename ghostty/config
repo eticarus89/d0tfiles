@@ -47,16 +47,20 @@ keybind = ctrl+r=reload_config
 
 theme = TokyoNight Night
 #theme = Rose Pine
-#theme = GruvboxDark
-
+#theme = Gruvbox Dark Hard
+#theme = Gruvbox Light
 
 
 #custom-shader = /home/chris/bloom.glsl
 
 
 #window-padding-x = 10
-window-padding-y = 12
+window-padding-y = 10
 #window-padding-balance = true
 
 #window-width = 105c
 #window-height = 25r
+
+background-opacity = 0.8
+gtk-titlebar = false
+
