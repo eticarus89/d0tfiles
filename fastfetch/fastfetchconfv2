@@ -4,10 +4,10 @@
     	"source": "~/.config/fastfetch/assets/ha.png",
     	"type": "kitty-direct",
     	"padding": {
-    		"top": 2,
+    		"top": 1,
             "left": 3
     	},
-      "width": 24,
+      "width": 23,
       "height": 11
   },
   "display": {
@@ -15,9 +15,10 @@
     },
     "modules": [
 	"break",
-	"break",
 	{
-            "type": "title",
+            "type": "custom",
+            "key": "  @icarus",
+            "keyColor":"blue",
             "keyWidth": 10
         },
         "break",
