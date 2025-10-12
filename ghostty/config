@@ -53,13 +53,9 @@ theme = TokyoNight Night
 
 #custom-shader = /home/chris/bloom.glsl
 
-
-#window-padding-x = 10
-window-padding-y = 10
-#window-padding-balance = true
-
-#window-width = 105c
-#window-height = 25r
+# Sets the startup window size in characters (width x height)
+window-width = 100
+window-height = 30
 
 background-opacity = 0.8
 gtk-titlebar = false
